@@ -1,0 +1,33 @@
+{
+  "name": "backstageel/cakephp-gentelella-theme",
+  "description": "CakePHP 3.x Gentelella Theme.",
+  "type": "cakephp-plugin",
+  "keywords": ["cakephp", "templates", "plugin"],
+  "homepage": "https://github.com/backstageel/cakephp-gentelella-theme",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Elísio Leonardo",
+      "email": "elisio.leonardo@gmail.com",
+      "homepage": "https://elisioleonardo.com/",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.16",
+    "cakephp/cakephp": "~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hostmoz\\": "src"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/maiconpinto/cakephp-gentelella-theme/issues",
+    "source": "https://github.com/maiconpinto/cakephp-gentelella-theme"
+  }
+}
+
