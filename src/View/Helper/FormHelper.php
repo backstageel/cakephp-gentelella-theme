@@ -1,6 +1,6 @@
 <?php
 
-namespace Hostmoz\View\Helper;
+namespace Gentelella\View\Helper;
 
 use Cake\View\Helper\FormHelper as CakeFormHelper;
 use Cake\Utility\Hash;
