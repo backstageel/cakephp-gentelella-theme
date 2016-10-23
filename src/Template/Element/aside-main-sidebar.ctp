@@ -1,5 +1,10 @@
 <?php
-$file = ROOT . DS . 'src' . DS . 'Template' . DS . 'Element' . DS . 'aside-main-sidebar.ctp';
+if($this->plugin){
+    $file = ROOT . DS . 'plugins'.DS.$this->plugin.DS.'src' . DS . 'Template' . DS . 'Pages' . DS . 'home.ctp';
+}
+if(!file_exists($file)){
+    $file = ROOT . DS . 'src' . DS . 'Template' . DS . 'Pages' . DS . 'home.ctp';
+}
 
 if (file_exists($file)) {
     ob_start();
@@ -10,7 +15,7 @@ if (file_exists($file)) {
     <div class="col-md-3 left_col">
         <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-                <a href="<?= $this->Url->build('/')?>" class="site_title"><i class="fa fa-paw"></i> <span>Hostmoz!</span></a>
+                <a href="<?= $this->Url->build('/')?>" class="site_title"><i class="fa fa-paw"></i> <span><?php echo isset($theme['title']) ? $theme['title'] : 'Gentelella'; ?></span></a>
             </div>
 
             <div class="clearfix"></div>

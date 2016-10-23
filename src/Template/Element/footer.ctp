@@ -1,5 +1,10 @@
 <?php
-$file = ROOT . DS . 'src' . DS . 'Template' . DS . 'Element' . DS . 'footer.ctp';
+if($this->plugin){
+    $file = ROOT . DS . 'plugins'.DS.$this->plugin.DS.'src' . DS . 'Template' . DS . 'Pages' . DS . 'home.ctp';
+}
+if(!file_exists($file)){
+    $file = ROOT . DS . 'src' . DS . 'Template' . DS . 'Pages' . DS . 'home.ctp';
+}
 
 if (file_exists($file)) {
     ob_start();
