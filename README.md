@@ -1,11 +1,14 @@
-# CakePHP AdminLTE Theme
+# CakePHP Gentelella Theme
+
+## Gentelella Theme Demo
+You can view the Demo of Gentelella Theme here: https://colorlib.com/polygon/gentelella/index.html
 
 ## Installation
 
 You can install using [composer](http://getcomposer.org).
 
 ```
-composer require maiconpinto/cakephp-adminlte-theme
+composer require backstageel/cakephp-gentelella-theme
 ```
 
 ### Enable Plugin
@@ -13,7 +16,7 @@ composer require maiconpinto/cakephp-adminlte-theme
 ```php
 // config/bootstrap.php
 
-Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
+Plugin::load('Gentelella', ['bootstrap' => true, 'routes' => true]);
 ```
 
 ### Enable theme
@@ -23,7 +26,7 @@ Plugin::load('AdminLTE', ['bootstrap' => true, 'routes' => true]);
 
 public function beforeRender(Event $event)
 {
-    $this->viewBuilder()->theme('AdminLTE');
+    $this->viewBuilder()->theme('Gentelella');
 }
 ```
 
@@ -34,7 +37,7 @@ public function beforeRender(Event $event)
 
 public function initialize()
 {
-    $this->loadHelper('Form', ['className' => 'AdminLTE.Form']);
+    $this->loadHelper('Form', ['className' => 'Gentelella.Form']);
 }
 ```
 
@@ -55,10 +58,10 @@ public function beforeRender(Event $event)
 // To customize configuration paste it at end of file config/bootstrap.php
 
 Configure::write('Theme', [
-    'title' => 'AdminLTE',
+    'title' => 'Gentelella',
     'logo' => [
-        'mini' => '<b>A</b>LT',
-        'large' => '<b>Admin</b>LTE'
+        'mini' => '<b>G</b>T',
+        'large' => '<b>Gentelella</b>Theme'
     ],
     'login' => [
         'show_remember' => true,
@@ -66,6 +69,12 @@ Configure::write('Theme', [
         'show_social' => true
     ]
 ]);
+```
+
+## Symlink Assets
+Don't forget to Symlink Assets to improve performance
+```batch
+bin/cake plugin assets symlink
 ```
 
 ### Customize Layout
