@@ -3,21 +3,21 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php echo isset($theme['title']) ? $theme['title'] : 'AdminLTE 2'; ?></title>
+    <title><?php echo isset($theme['title']) ? $theme['title'] : 'Gentelella'; ?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
     <!-- Bootstrap 3.3.5 -->
-    <?php echo $this->Html->css('Hostmoz./vendors/bootstrap/dist/css/bootstrap.min'); ?>
+    <?php echo $this->Html->css('Gentelella./vendors/bootstrap/dist/css/bootstrap.min'); ?>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
-    <?php echo $this->Html->css('Hostmoz./vendors/iCheck/skins/flat/green'); ?>
-    <?php echo $this->Html->css('Hostmoz./vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
-    <?php echo $this->Html->css('Hostmoz./css/maps/jquery-jvectormap-2.0.3'); ?>
-    <?php echo $this->Html->css('Hostmoz./build/css/custom.min'); ?>
+    <?php echo $this->Html->css('Gentelella./vendors/iCheck/skins/flat/green'); ?>
+    <?php echo $this->Html->css('Gentelella./vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
+    <?php echo $this->Html->css('Gentelella./css/maps/jquery-jvectormap-2.0.3'); ?>
+    <?php echo $this->Html->css('Gentelella./build/css/custom.min'); ?>
 
     <?php echo $this->fetch('css'); ?>
 
@@ -51,34 +51,34 @@
 </div>
 
 <!-- jQuery 2.1.4 -->
-<?php echo $this->Html->script('Hostmoz./vendors/jquery/dist/jquery.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/jquery/dist/jquery.min'); ?>
 <!-- Bootstrap 3.3.5 -->
-<?php echo $this->Html->script('Hostmoz./vendors/bootstrap/dist/js/bootstrap.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/bootstrap/dist/js/bootstrap.min'); ?>
 <!-- SlimScroll -->
-<?php echo $this->Html->script('Hostmoz./vendors/fastclick/lib/fastclick'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/fastclick/lib/fastclick'); ?>
 <!-- FastClick -->
-<?php echo $this->Html->script('Hostmoz./vendors/nprogress/nprogress'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/nprogress/nprogress'); ?>
 <!-- jQuery 2.1.4 -->
-<?php echo $this->Html->script('Hostmoz./vendors/Chart.js/dist/Chart.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/Chart.js/dist/Chart.min'); ?>
 <!-- Bootstrap 3.3.5 -->
-<?php echo $this->Html->script('Hostmoz./vendors/bernii/gauge.js/dist/gauge.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/bernii/gauge.js/dist/gauge.min'); ?>
 <!-- SlimScroll -->
-<?php echo $this->Html->script('Hostmoz./vendors/bootstrap-progressbar/bootstrap-progressbar.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/bootstrap-progressbar/bootstrap-progressbar.min'); ?>
 <!-- FastClick -->
-<?php echo $this->Html->script('Hostmoz./vendors/iCheck/icheck.min'); ?>
-<?php echo $this->Html->script('Hostmoz./vendors/skycons/skycons'); ?>
-<?php echo $this->Html->script('Hostmoz./vendors/Flot/jquery.flot'); ?>
-<?php echo $this->Html->script('Hostmoz./vendors/Flot/jquery.flot.pie'); ?>
-<?php echo $this->Html->script('Hostmoz./vendors/Flot/jquery.flot.time'); ?>
-<?php echo $this->Html->script('Hostmoz./vendors/Flot/jquery.flot.stack'); ?>
-<?php echo $this->Html->script('Hostmoz./vendors/Flot/jquery.flot.resize'); ?>
-<?php echo $this->Html->script('Hostmoz./js/flot/jquery.flot.orderBars'); ?>
-<?php echo $this->Html->script('Hostmoz./js/flot/date'); ?>
-<?php echo $this->Html->script('Hostmoz./js/flot/jquery.flot.spline'); ?>
-<?php echo $this->Html->script('Hostmoz./js/maps/jquery-jvectormap-2.0.3.min'); ?>
-<?php echo $this->Html->script('Hostmoz./js/moment/moment.min'); ?>
-<?php echo $this->Html->script('Hostmoz./js/datepicker/daterangepicker'); ?>
-<?php echo $this->Html->script('Hostmoz./build/js/custom.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/iCheck/icheck.min'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/skycons/skycons'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot.pie'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot.time'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot.stack'); ?>
+<?php echo $this->Html->script('Gentelella./vendors/Flot/jquery.flot.resize'); ?>
+<?php echo $this->Html->script('Gentelella./js/flot/jquery.flot.orderBars'); ?>
+<?php echo $this->Html->script('Gentelella./js/flot/date'); ?>
+<?php echo $this->Html->script('Gentelella./js/flot/jquery.flot.spline'); ?>
+<?php echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-2.0.3.min'); ?>
+<?php echo $this->Html->script('Gentelella./js/moment/moment.min'); ?>
+<?php echo $this->Html->script('Gentelella./js/datepicker/daterangepicker'); ?>
+<?php echo $this->Html->script('Gentelella./build/js/custom.min'); ?>
 
 <?php echo $this->fetch('script'); ?>
 <?php echo $this->fetch('scriptBotton'); ?>
@@ -156,9 +156,9 @@
         }
     });
 </script>
-<?php echo $this->Html->script('Hostmoz./js/maps/jquery-jvectormap-world-mill-en'); ?>
-<?php echo $this->Html->script('Hostmoz./js/maps/jquery-jvectormap-us-aea-en'); ?>
-<?php echo $this->Html->script('Hostmoz./js/maps/gdp-data'); ?>
+<?php echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-world-mill-en'); ?>
+<?php echo $this->Html->script('Gentelella./js/maps/jquery-jvectormap-us-aea-en'); ?>
+<?php echo $this->Html->script('Gentelella./js/maps/gdp-data'); ?>
 <script>
     $(document).ready(function(){
         $('#world-map-gdp').vectorMap({
