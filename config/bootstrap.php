@@ -4,10 +4,10 @@ use Cake\Core\Exception\MissingPluginException;
 use Cake\Core\Plugin;
 
 Configure::write('Theme', [
-    'title' => 'AdminLTE',
+    'title' => 'Gentelella',
     'logo' => [
-        'mini' => '<b>A</b>LT',
-        'large' => '<b>Admin</b>LTE'
+        'mini' => '<b>G</b>T',
+        'large' => '<b>Gentelella</b>Theme'
     ],
     'login' => [
         'show_remember' => true,
