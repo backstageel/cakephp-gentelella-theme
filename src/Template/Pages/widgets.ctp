@@ -1,1072 +1,1121 @@
-<!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Widgets
-        <small>Preview page</small>
-      </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Widgets</li>
-      </ol>
-    </section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Main content -->
-    <section class="content">
+    <title>Gentallela Alela! | </title>
 
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-aqua"><i class="fa fa-envelope-o"></i></span>
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
 
-            <div class="info-box-content">
-              <span class="info-box-text">Messages</span>
-              <span class="info-box-number">1,410</span>
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentellela Alela!</span></a>
             </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-green"><i class="fa fa-flag-o"></i></span>
 
-            <div class="info-box-content">
-              <span class="info-box-text">Bookmarks</span>
-              <span class="info-box-number">410</span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-yellow"><i class="fa fa-files-o"></i></span>
+            <div class="clearfix"></div>
 
-            <div class="info-box-content">
-              <span class="info-box-text">Uploads</span>
-              <span class="info-box-number">13,648</span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box">
-            <span class="info-box-icon bg-red"><i class="fa fa-star-o"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Likes</span>
-              <span class="info-box-number">93,139</span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
-
-      <!-- =========================================================== -->
-
-      <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box bg-aqua">
-            <span class="info-box-icon"><i class="fa fa-bookmark-o"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Bookmarks</span>
-              <span class="info-box-number">41,410</span>
-
-              <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
               </div>
-                  <span class="progress-description">
-                    70% Increase in 30 Days
-                  </span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box bg-green">
-            <span class="info-box-icon"><i class="fa fa-thumbs-o-up"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Likes</span>
-              <span class="info-box-number">41,410</span>
-
-              <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-              </div>
-                  <span class="progress-description">
-                    70% Increase in 30 Days
-                  </span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box bg-yellow">
-            <span class="info-box-icon"><i class="fa fa-calendar"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Events</span>
-              <span class="info-box-number">41,410</span>
-
-              <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-              </div>
-                  <span class="progress-description">
-                    70% Increase in 30 Days
-                  </span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box bg-red">
-            <span class="info-box-icon"><i class="fa fa-comments-o"></i></span>
-
-            <div class="info-box-content">
-              <span class="info-box-text">Comments</span>
-              <span class="info-box-number">41,410</span>
-
-              <div class="progress">
-                <div class="progress-bar" style="width: 70%"></div>
-              </div>
-                  <span class="progress-description">
-                    70% Increase in 30 Days
-                  </span>
-            </div>
-            <!-- /.info-box-content -->
-          </div>
-          <!-- /.info-box -->
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
-
-      <!-- =========================================================== -->
-
-      <!-- Small boxes (Stat box) -->
-      <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner">
-              <h3>150</h3>
-
-              <p>New Orders</p>
-            </div>
-            <div class="icon">
-              <i class="fa fa-shopping-cart"></i>
-            </div>
-            <a href="#" class="small-box-footer">
-              More info <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-              <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-              <p>Bounce Rate</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-stats-bars"></i>
-            </div>
-            <a href="#" class="small-box-footer">
-              More info <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-              <h3>44</h3>
-
-              <p>User Registrations</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-person-add"></i>
-            </div>
-            <a href="#" class="small-box-footer">
-              More info <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-red">
-            <div class="inner">
-              <h3>65</h3>
-
-              <p>Unique Visitors</p>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
-            </div>
-            <a href="#" class="small-box-footer">
-              More info <i class="fa fa-arrow-circle-right"></i>
-            </a>
-          </div>
-        </div>
-        <!-- ./col -->
-      </div>
-      <!-- /.row -->
-
-      <!-- =========================================================== -->
-
-      <div class="row">
-        <div class="col-md-3">
-          <div class="box box-default collapsed-box">
-            <div class="box-header with-border">
-              <h3 class="box-title">Expandable</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              The body of the box
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3">
-          <div class="box box-success">
-            <div class="box-header with-border">
-              <h3 class="box-title">Removable</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              The body of the box
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3">
-          <div class="box box-warning">
-            <div class="box-header with-border">
-              <h3 class="box-title">Collapsable</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              The body of the box
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3">
-          <div class="box box-danger">
-            <div class="box-header">
-              <h3 class="box-title">Loading state</h3>
-            </div>
-            <div class="box-body">
-              The body of the box
-            </div>
-            <!-- /.box-body -->
-            <!-- Loading (remove the following to stop the loading)-->
-            <div class="overlay">
-              <i class="fa fa-refresh fa-spin"></i>
-            </div>
-            <!-- end loading -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
-
-      <!-- =========================================================== -->
-
-      <div class="row">
-        <div class="col-md-3">
-          <div class="box box-default collapsed-box box-solid">
-            <div class="box-header with-border">
-              <h3 class="box-title">Expandable</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              The body of the box
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3">
-          <div class="box box-success box-solid">
-            <div class="box-header with-border">
-              <h3 class="box-title">Removable</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              The body of the box
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3">
-          <div class="box box-warning box-solid">
-            <div class="box-header with-border">
-              <h3 class="box-title">Collapsable</h3>
-
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              The body of the box
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-3">
-          <div class="box box-danger box-solid">
-            <div class="box-header">
-              <h3 class="box-title">Loading state</h3>
-            </div>
-            <div class="box-body">
-              The body of the box
-            </div>
-            <!-- /.box-body -->
-            <!-- Loading (remove the following to stop the loading)-->
-            <div class="overlay">
-              <i class="fa fa-refresh fa-spin"></i>
-            </div>
-            <!-- end loading -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
-
-      <!-- =========================================================== -->
-
-      <!-- Direct Chat -->
-      <div class="row">
-        <div class="col-md-3">
-          <!-- DIRECT CHAT PRIMARY -->
-          <div class="box box-primary direct-chat direct-chat-primary">
-            <div class="box-header with-border">
-              <h3 class="box-title">Direct Chat</h3>
-
-              <div class="box-tools pull-right">
-                <span data-toggle="tooltip" title="3 New Messages" class="badge bg-light-blue">3</span>
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Contacts" data-widget="chat-pane-toggle">
-                  <i class="fa fa-comments"></i></button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>John Doe</h2>
               </div>
             </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <!-- Conversations are loaded here -->
-              <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
-                <div class="direct-chat-msg">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-left">Alexander Pierce</span>
-                    <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <?php echo $this->Html->image('user1-128x128.jpg', ['alt' => 'Message User Image', 'class' => 'direct-chat-img']); ?><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    Is this template really for free? That's unbelievable!
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
+            <!-- /menu profile quick info -->
 
-                <!-- Message to the right -->
-                <div class="direct-chat-msg right">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-right">Sarah Bullock</span>
-                    <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <?php echo $this->Html->image('user3-128x128.jpg', ['alt' => 'Message User Image', 'class' => 'direct-chat-img']); ?><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    You better believe it!
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
-              </div>
-              <!--/.direct-chat-messages-->
+            <br />
 
-              <!-- Contacts are loaded here -->
-              <div class="direct-chat-contacts">
-                <ul class="contacts-list">
-                  <li>
-                    <a href="#">
-                      <?php echo $this->Html->image('user1-128x128.jpg', ['class' => 'contacts-list-img']); ?>
-
-                      <div class="contacts-list-info">
-                            <span class="contacts-list-name">
-                              Count Dracula
-                              <small class="contacts-list-date pull-right">2/28/2015</small>
-                            </span>
-                        <span class="contacts-list-msg">How have you been? I was...</span>
-                      </div>
-                      <!-- /.contacts-list-info -->
-                    </a>
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="index.html">Dashboard</a></li>
+                      <li><a href="index2.html">Dashboard2</a></li>
+                      <li><a href="index3.html">Dashboard3</a></li>
+                    </ul>
                   </li>
-                  <!-- End Contact Item -->
-                </ul>
-                <!-- /.contatcts-list -->
-              </div>
-              <!-- /.direct-chat-pane -->
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <form action="#" method="post">
-                <div class="input-group">
-                  <input type="text" name="message" placeholder="Type Message ..." class="form-control">
-                      <span class="input-group-btn">
-                        <button type="submit" class="btn btn-primary btn-flat">Send</button>
-                      </span>
-                </div>
-              </form>
-            </div>
-            <!-- /.box-footer-->
-          </div>
-          <!--/.direct-chat -->
-        </div>
-        <!-- /.col -->
-
-        <div class="col-md-3">
-          <!-- DIRECT CHAT SUCCESS -->
-          <div class="box box-success direct-chat direct-chat-success">
-            <div class="box-header with-border">
-              <h3 class="box-title">Direct Chat</h3>
-
-              <div class="box-tools pull-right">
-                <span data-toggle="tooltip" title="3 New Messages" class="badge bg-green">3</span>
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Contacts" data-widget="chat-pane-toggle">
-                  <i class="fa fa-comments"></i></button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <!-- Conversations are loaded here -->
-              <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
-                <div class="direct-chat-msg">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-left">Alexander Pierce</span>
-                    <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <?php echo $this->Html->image('user1-128x128.jpg', ['alt' => 'Message User Image', 'class' => 'direct-chat-img']); ?>
-                  <!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    Is this template really for free? That's unbelievable!
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
-
-                <!-- Message to the right -->
-                <div class="direct-chat-msg right">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-right">Sarah Bullock</span>
-                    <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <?php echo $this->Html->image('user3-128x128.jpg', ['alt' => 'Message User Image', 'class' => 'direct-chat-img']); ?><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    You better believe it!
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
-              </div>
-              <!--/.direct-chat-messages-->
-
-              <!-- Contacts are loaded here -->
-              <div class="direct-chat-contacts">
-                <ul class="contacts-list">
-                  <li>
-                    <a href="#">
-                      <?php echo $this->Html->image('user1-128x128.jpg', ['class' => 'contacts-list-img']); ?>
-
-                      <div class="contacts-list-info">
-                            <span class="contacts-list-name">
-                              Count Dracula
-                              <small class="contacts-list-date pull-right">2/28/2015</small>
-                            </span>
-                        <span class="contacts-list-msg">How have you been? I was...</span>
-                      </div>
-                      <!-- /.contacts-list-info -->
-                    </a>
+                  <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="form.html">General Form</a></li>
+                      <li><a href="form_advanced.html">Advanced Components</a></li>
+                      <li><a href="form_validation.html">Form Validation</a></li>
+                      <li><a href="form_wizards.html">Form Wizard</a></li>
+                      <li><a href="form_upload.html">Form Upload</a></li>
+                      <li><a href="form_buttons.html">Form Buttons</a></li>
+                    </ul>
                   </li>
-                  <!-- End Contact Item -->
-                </ul>
-                <!-- /.contatcts-list -->
-              </div>
-              <!-- /.direct-chat-pane -->
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <form action="#" method="post">
-                <div class="input-group">
-                  <input type="text" name="message" placeholder="Type Message ..." class="form-control">
-                      <span class="input-group-btn">
-                        <button type="submit" class="btn btn-success btn-flat">Send</button>
-                      </span>
-                </div>
-              </form>
-            </div>
-            <!-- /.box-footer-->
-          </div>
-          <!--/.direct-chat -->
-        </div>
-        <!-- /.col -->
-
-        <div class="col-md-3">
-          <!-- DIRECT CHAT WARNING -->
-          <div class="box box-warning direct-chat direct-chat-warning">
-            <div class="box-header with-border">
-              <h3 class="box-title">Direct Chat</h3>
-
-              <div class="box-tools pull-right">
-                <span data-toggle="tooltip" title="3 New Messages" class="badge bg-yellow">3</span>
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Contacts" data-widget="chat-pane-toggle">
-                  <i class="fa fa-comments"></i></button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <!-- Conversations are loaded here -->
-              <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
-                <div class="direct-chat-msg">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-left">Alexander Pierce</span>
-                    <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <?php echo $this->Html->image('user1-128x128.jpg', ['alt' => 'Message User Image', 'class' => 'direct-chat-img']); ?><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    Is this template really for free? That's unbelievable!
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
-
-                <!-- Message to the right -->
-                <div class="direct-chat-msg right">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-right">Sarah Bullock</span>
-                    <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <?php echo $this->Html->image('user3-128x128.jpg', ['alt' => 'Message User Image', 'class' => 'direct-chat-img']); ?><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    You better believe it!
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
-              </div>
-              <!--/.direct-chat-messages-->
-
-              <!-- Contacts are loaded here -->
-              <div class="direct-chat-contacts">
-                <ul class="contacts-list">
-                  <li>
-                    <a href="#">
-                      <?php echo $this->Html->image('user1-128x128.jpg', ['class' => 'contacts-list-img']); ?>
-
-                      <div class="contacts-list-info">
-                            <span class="contacts-list-name">
-                              Count Dracula
-                              <small class="contacts-list-date pull-right">2/28/2015</small>
-                            </span>
-                        <span class="contacts-list-msg">How have you been? I was...</span>
-                      </div>
-                      <!-- /.contacts-list-info -->
-                    </a>
+                  <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="general_elements.html">General Elements</a></li>
+                      <li><a href="media_gallery.html">Media Gallery</a></li>
+                      <li><a href="typography.html">Typography</a></li>
+                      <li><a href="icons.html">Icons</a></li>
+                      <li><a href="glyphicons.html">Glyphicons</a></li>
+                      <li><a href="widgets.html">Widgets</a></li>
+                      <li><a href="invoice.html">Invoice</a></li>
+                      <li><a href="inbox.html">Inbox</a></li>
+                      <li><a href="calendar.html">Calendar</a></li>
+                    </ul>
                   </li>
-                  <!-- End Contact Item -->
-                </ul>
-                <!-- /.contatcts-list -->
-              </div>
-              <!-- /.direct-chat-pane -->
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <form action="#" method="post">
-                <div class="input-group">
-                  <input type="text" name="message" placeholder="Type Message ..." class="form-control">
-                      <span class="input-group-btn">
-                        <button type="submit" class="btn btn-warning btn-flat">Send</button>
-                      </span>
-                </div>
-              </form>
-            </div>
-            <!-- /.box-footer-->
-          </div>
-          <!--/.direct-chat -->
-        </div>
-        <!-- /.col -->
-
-        <div class="col-md-3">
-          <!-- DIRECT CHAT DANGER -->
-          <div class="box box-danger direct-chat direct-chat-danger">
-            <div class="box-header with-border">
-              <h3 class="box-title">Direct Chat</h3>
-
-              <div class="box-tools pull-right">
-                <span data-toggle="tooltip" title="3 New Messages" class="badge bg-red">3</span>
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Contacts" data-widget="chat-pane-toggle">
-                  <i class="fa fa-comments"></i></button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <!-- Conversations are loaded here -->
-              <div class="direct-chat-messages">
-                <!-- Message. Default to the left -->
-                <div class="direct-chat-msg">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-left">Alexander Pierce</span>
-                    <span class="direct-chat-timestamp pull-right">23 Jan 2:00 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <?php echo $this->Html->image('user1-128x128.jpg', ['alt' => 'Message User Image', 'class' => 'direct-chat-img']); ?><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    Is this template really for free? That's unbelievable!
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
-
-                <!-- Message to the right -->
-                <div class="direct-chat-msg right">
-                  <div class="direct-chat-info clearfix">
-                    <span class="direct-chat-name pull-right">Sarah Bullock</span>
-                    <span class="direct-chat-timestamp pull-left">23 Jan 2:05 pm</span>
-                  </div>
-                  <!-- /.direct-chat-info -->
-                  <?php echo $this->Html->image('user3-128x128.jpg', ['alt' => 'Message User Image', 'class' => 'direct-chat-img']); ?><!-- /.direct-chat-img -->
-                  <div class="direct-chat-text">
-                    You better believe it!
-                  </div>
-                  <!-- /.direct-chat-text -->
-                </div>
-                <!-- /.direct-chat-msg -->
-              </div>
-              <!--/.direct-chat-messages-->
-
-              <!-- Contacts are loaded here -->
-              <div class="direct-chat-contacts">
-                <ul class="contacts-list">
-                  <li>
-                    <a href="#">
-                      <?php echo $this->Html->image('user1-128x128.jpg', ['class' => 'contacts-list-img']); ?>
-
-                      <div class="contacts-list-info">
-                            <span class="contacts-list-name">
-                              Count Dracula
-                              <small class="contacts-list-date pull-right">2/28/2015</small>
-                            </span>
-                        <span class="contacts-list-msg">How have you been? I was...</span>
-                      </div>
-                      <!-- /.contacts-list-info -->
-                    </a>
+                  <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="tables.html">Tables</a></li>
+                      <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                    </ul>
                   </li>
-                  <!-- End Contact Item -->
+                  <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="chartjs.html">Chart JS</a></li>
+                      <li><a href="chartjs2.html">Chart JS2</a></li>
+                      <li><a href="morisjs.html">Moris JS</a></li>
+                      <li><a href="echarts.html">ECharts</a></li>
+                      <li><a href="other_charts.html">Other Charts</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                      <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                    </ul>
+                  </li>
                 </ul>
-                <!-- /.contatcts-list -->
               </div>
-              <!-- /.direct-chat-pane -->
+              <div class="menu_section">
+                <h3>Live On</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="e_commerce.html">E-commerce</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="project_detail.html">Project Detail</a></li>
+                      <li><a href="contacts.html">Contacts</a></li>
+                      <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="page_403.html">403 Error</a></li>
+                      <li><a href="page_404.html">404 Error</a></li>
+                      <li><a href="page_500.html">500 Error</a></li>
+                      <li><a href="plain_page.html">Plain Page</a></li>
+                      <li><a href="login.html">Login Page</a></li>
+                      <li><a href="pricing_tables.html">Pricing Tables</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="#level1_1">Level One</a>
+                        <li><a>Level One<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="level2.html">Level Two</a>
+                            </li>
+                            <li><a href="#level2_1">Level Two</a>
+                            </li>
+                            <li><a href="#level2_2">Level Two</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="#level1_2">Level One</a>
+                        </li>
+                    </ul>
+                  </li>                  
+                  <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
+                </ul>
+              </div>
+
             </div>
-            <!-- /.box-body -->
-            <div class="box-footer">
-              <form action="#" method="post">
-                <div class="input-group">
-                  <input type="text" name="message" placeholder="Type Message ..." class="form-control">
-                      <span class="input-group-btn">
-                        <button type="submit" class="btn btn-danger btn-flat">Send</button>
-                      </span>
-                </div>
-              </form>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
             </div>
-            <!-- /.box-footer-->
+            <!-- /menu footer buttons -->
           </div>
-          <!--/.direct-chat -->
         </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
 
-      <h2 class="page-header">Social Widgets</h2>
-
-      <div class="row">
-        <div class="col-md-4">
-          <!-- Widget: user widget style 1 -->
-          <div class="box box-widget widget-user-2">
-            <!-- Add the bg color to the header using any of the bg-* classes -->
-            <div class="widget-user-header bg-yellow">
-              <div class="widget-user-image">
-                <?php echo $this->Html->image('user7-128x128.jpg', ['alt' => 'User Avatar', 'class' => 'img-circle']); ?>
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav class="" role="navigation">
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
               </div>
-              <!-- /.widget-user-image -->
-              <h3 class="widget-user-username">Nadia Carmichael</h3>
-              <h5 class="widget-user-desc">Lead Developer</h5>
-            </div>
-            <div class="box-footer no-padding">
-              <ul class="nav nav-stacked">
-                <li><a href="#">Projects <span class="pull-right badge bg-blue">31</span></a></li>
-                <li><a href="#">Tasks <span class="pull-right badge bg-aqua">5</span></a></li>
-                <li><a href="#">Completed Projects <span class="pull-right badge bg-green">12</span></a></li>
-                <li><a href="#">Followers <span class="pull-right badge bg-red">842</span></a></li>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">John Doe
+                    <span class=" fa fa-angle-down"></span>
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;"> Profile</a></li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  </ul>
+                </li>
+
+                <li role="presentation" class="dropdown">
+                  <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-green">6</span>
+                  </a>
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
               </ul>
-            </div>
+            </nav>
           </div>
-          <!-- /.widget-user -->
         </div>
-        <!-- /.col -->
-        <div class="col-md-4">
-          <!-- Widget: user widget style 1 -->
-          <div class="box box-widget widget-user">
-            <!-- Add the bg color to the header using any of the bg-* classes -->
-            <div class="widget-user-header bg-aqua-active">
-              <h3 class="widget-user-username">Alexander Pierce</h3>
-              <h5 class="widget-user-desc">Founder &amp; CEO</h5>
-            </div>
-            <div class="widget-user-image">
-              <?php echo $this->Html->image('user1-128x128.jpg', ['alt' => 'User Avatar', 'class' => 'img-circle']); ?>
-            </div>
-            <div class="box-footer">
-              <div class="row">
-                <div class="col-sm-4 border-right">
-                  <div class="description-block">
-                    <h5 class="description-header">3,200</h5>
-                    <span class="description-text">SALES</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-                <div class="col-sm-4 border-right">
-                  <div class="description-block">
-                    <h5 class="description-header">13,000</h5>
-                    <span class="description-text">FOLLOWERS</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-                <div class="col-sm-4">
-                  <div class="description-block">
-                    <h5 class="description-header">35</h5>
-                    <span class="description-text">PRODUCTS</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>Widget Designs</h3>
               </div>
-              <!-- /.row -->
-            </div>
-          </div>
-          <!-- /.widget-user -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-4">
-          <!-- Widget: user widget style 1 -->
-          <div class="box box-widget widget-user">
-            <!-- Add the bg color to the header using any of the bg-* classes -->
-            <div class="widget-user-header bg-black" style="background: url('../dist/img/photo1.png') center center;">
-              <h3 class="widget-user-username">Elizabeth Pierce</h3>
-              <h5 class="widget-user-desc">Web Designer</h5>
-            </div>
-            <div class="widget-user-image">
-              <?php echo $this->Html->image('user3-128x128.jpg', ['alt' => 'User Avatar', 'class' => 'img-circle']); ?>
-            </div>
-            <div class="box-footer">
-              <div class="row">
-                <div class="col-sm-4 border-right">
-                  <div class="description-block">
-                    <h5 class="description-header">3,200</h5>
-                    <span class="description-text">SALES</span>
+
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Go!</button>
+                    </span>
                   </div>
-                  <!-- /.description-block -->
                 </div>
-                <!-- /.col -->
-                <div class="col-sm-4 border-right">
-                  <div class="description-block">
-                    <h5 class="description-header">13,000</h5>
-                    <span class="description-text">FOLLOWERS</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-                <div class="col-sm-4">
-                  <div class="description-block">
-                    <h5 class="description-header">35</h5>
-                    <span class="description-text">PRODUCTS</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
               </div>
-              <!-- /.row -->
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="">
+                  <div class="x_content">
+                    <div class="row">
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats">
+                          <div class="icon"><i class="fa fa-caret-square-o-right"></i>
+                          </div>
+                          <div class="count">179</div>
+
+                          <h3>New Sign ups</h3>
+                          <p>Lorem ipsum psdea itgum rixt.</p>
+                        </div>
+                      </div>
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats">
+                          <div class="icon"><i class="fa fa-comments-o"></i>
+                          </div>
+                          <div class="count">179</div>
+
+                          <h3>New Sign ups</h3>
+                          <p>Lorem ipsum psdea itgum rixt.</p>
+                        </div>
+                      </div>
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats">
+                          <div class="icon"><i class="fa fa-sort-amount-desc"></i>
+                          </div>
+                          <div class="count">179</div>
+
+                          <h3>New Sign ups</h3>
+                          <p>Lorem ipsum psdea itgum rixt.</p>
+                        </div>
+                      </div>
+                      <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="tile-stats">
+                          <div class="icon"><i class="fa fa-check-square-o"></i>
+                          </div>
+                          <div class="count">179</div>
+
+                          <h3>New Sign ups</h3>
+                          <p>Lorem ipsum psdea itgum rixt.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row top_tiles" style="margin: 10px 0;">
+                      <div class="col-md-3 tile">
+                        <span>Total Sessions</span>
+                        <h2>231,809</h2>
+                        <span class="sparkline_one" style="height: 160px;">
+                                      <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
+                                  </span>
+                      </div>
+                      <div class="col-md-3 tile">
+                        <span>Total Revenue</span>
+                        <h2>$ 1,231,809</h2>
+                        <span class="sparkline_one" style="height: 160px;">
+                                      <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
+                                  </span>
+                      </div>
+                      <div class="col-md-3 tile">
+                        <span>Total Sessions</span>
+                        <h2>231,809</h2>
+                        <span class="sparkline_two" style="height: 160px;">
+                                      <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
+                                  </span>
+                      </div>
+                      <div class="col-md-3 tile">
+                        <span>Total Sessions</span>
+                        <h2>231,809</h2>
+                        <span class="sparkline_one" style="height: 160px;">
+                                      <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
+                                  </span>
+                      </div>
+                    </div>
+
+
+
+
+                    <br />
+                    <div class="row">
+                      <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel fixed_height_390">
+                          <div class="x_title">
+                            <h2>Tally Design</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Settings 1</a>
+                                  </li>
+                                  <li><a href="#">Settings 2</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a class="close-link"><i class="fa fa-close"></i></a>
+                              </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+
+                            <div style="text-align: center; overflow: hidden; margin: 10px 5px 0;">
+                              <canvas id="canvas_line1" height="200"></canvas>
+                            </div>
+
+                            <div style="text-align: center; margin-bottom: 15px;">
+                              <div class="btn-group" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-default btn-sm">Day</button>
+                                <button type="button" class="btn btn-default btn-sm">Month</button>
+                                <button type="button" class="btn btn-default btn-sm">Year</button>
+                              </div>
+                            </div>
+
+                            <div>
+                              <ul class="list-inline widget_tally">
+                                <li>
+                                  <p>
+                                    <span class="month">12 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">29 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">16 January 2015 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel fixed_height_390">
+                          <div class="x_title">
+                            <h2>Sales Close</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Settings 1</a>
+                                  </li>
+                                  <li><a href="#">Settings 2</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a class="close-link"><i class="fa fa-close"></i></a>
+                              </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+
+                            <div style="text-align: center; margin-bottom: 17px">
+                              <ul class="verticle_bars list-inline">
+                                <li>
+                                  <div class="progress vertical progress_wide bottom">
+                                    <div class="progress-bar progress-bar-dark" role="progressbar" data-transitiongoal="65"></div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="progress vertical progress_wide bottom">
+                                    <div class="progress-bar progress-bar-gray" role="progressbar" data-transitiongoal="85"></div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="progress vertical progress_wide bottom">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" data-transitiongoal="45"></div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="progress vertical progress_wide bottom">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" data-transitiongoal="75"></div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="divider"></div>
+
+                            <ul class="legend list-unstyled">
+                              <li>
+                                <p>
+                                  <span class="icon"><i class="fa fa-square dark"></i></span> <span class="name">Item One Name</span>
+                                </p>
+                              </li>
+                              <li>
+                                <p>
+                                  <span class="icon"><i class="fa fa-square grey"></i></span> <span class="name">Item Two Name</span>
+                                </p>
+                              </li>
+                              <li>
+                                <p>
+                                  <span class="icon"><i class="fa fa-square blue"></i></span> <span class="name">Item Three Name</span>
+                                </p>
+                              </li>
+                              <li>
+                                <p>
+                                  <span class="icon"><i class="fa fa-square green"></i></span> <span class="name">Item Four Name</span>
+                                </p>
+                              </li>
+                            </ul>
+
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel ui-ribbon-container fixed_height_390">
+                          <div class="ui-ribbon-wrapper">
+                            <div class="ui-ribbon">
+                              30% Off
+                            </div>
+                          </div>
+                          <div class="x_title">
+                            <h2>User Mail</h2>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+
+                            <div style="text-align: center; margin-bottom: 17px">
+                              <span class="chart" data-percent="86">
+                                                  <span class="percent"></span>
+                              </span>
+                            </div>
+
+                            <h3 class="name_title">Finance</h3>
+                            <p>Short Description</p>
+
+                            <div class="divider"></div>
+
+                            <p>If you've decided to go in development mode and tweak all of this a bit, there are few things you should do.</p>
+
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel fixed_height_390">
+                          <div class="x_content">
+
+                            <div class="flex">
+                              <ul class="list-inline widget_profile_box">
+                                <li>
+                                  <a>
+                                    <i class="fa fa-facebook"></i>
+                                  </a>
+                                </li>
+                                <li>
+                                  <img src="images/user.png" alt="..." class="img-circle profile_img">
+                                </li>
+                                <li>
+                                  <a>
+                                    <i class="fa fa-twitter"></i>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+
+                            <h3 class="name">Musimbi</h3>
+
+                            <div class="flex">
+                              <ul class="list-inline count2">
+                                <li>
+                                  <h3>123</h3>
+                                  <span>Articles</span>
+                                </li>
+                                <li>
+                                  <h3>1234</h3>
+                                  <span>Followers</span>
+                                </li>
+                                <li>
+                                  <h3>123</h3>
+                                  <span>Following</span>
+                                </li>
+                              </ul>
+                            </div>
+                            <p>
+                              If you've decided to go in development mode and tweak all of this a bit, there are few things you should do.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel">
+                          <div class="x_title">
+                            <h2>Tally Design1</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Settings 1</a>
+                                  </li>
+                                  <li><a href="#">Settings 2</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a class="close-link"><i class="fa fa-close"></i></a>
+                              </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+
+                            <div style="text-align: center; margin-bottom: 17px">
+                              <span class="chart" data-percent="86">
+                                                  <span class="percent"></span>
+                              </span>
+                            </div>
+
+                            <div class="pie_bg" style="text-align: center; display: none; margin-bottom: 17px">
+                              <canvas id="canvas_doughnut" height="130"></canvas>
+                            </div>
+
+                            <div style="text-align: center;">
+                              <div class="btn-group" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-default btn-sm">1 D</button>
+                                <button type="button" class="btn btn-default btn-sm">1 W</button>
+                                <button type="button" class="btn btn-default btn-sm">1 M</button>
+                                <button type="button" class="btn btn-default btn-sm">1 Y</button>
+                              </div>
+                            </div>
+                            <div style="text-align: center; overflow: hidden; margin: 10px 5px 3px;">
+                              <canvas id="canvas_line" height="190"></canvas>
+                            </div>
+                            <div>
+                              <ul class="list-inline widget_tally">
+                                <li>
+                                  <p>
+                                    <span class="month">12 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">29 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">16 January 2015 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+                      <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel">
+                          <div class="x_title">
+                            <h2>Tally Design2</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Settings 1</a>
+                                  </li>
+                                  <li><a href="#">Settings 2</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a class="close-link"><i class="fa fa-close"></i></a>
+                              </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+
+                            <div style="text-align: center; margin-bottom: 17px">
+                              <span class="chart" data-percent="86">
+                                                  <span class="percent"></span>
+                              </span>
+                            </div>
+
+                            <div class="pie_bg" style="text-align: center; display: none; margin-bottom: 17px">
+                              <canvas id="canvas_doughnut2" height="130"></canvas>
+                            </div>
+
+                            <div style="text-align: center;">
+                              <div class="btn-group" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-default btn-sm">1 D</button>
+                                <button type="button" class="btn btn-default btn-sm">1 W</button>
+                                <button type="button" class="btn btn-default btn-sm">1 M</button>
+                                <button type="button" class="btn btn-default btn-sm">1 Y</button>
+                              </div>
+                            </div>
+                            <div style="text-align: center; overflow: hidden; margin: 10px 5px 3px;">
+                              <canvas id="canvas_line2" height="190"></canvas>
+                            </div>
+                            <div>
+                              <ul class="list-inline widget_tally">
+                                <li>
+                                  <p>
+                                    <span class="month">12 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">29 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">16 January 2015 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel">
+                          <div class="x_title">
+                            <h2>Tally Design3</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Settings 1</a>
+                                  </li>
+                                  <li><a href="#">Settings 2</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a class="close-link"><i class="fa fa-close"></i></a>
+                              </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+
+                            <div style="text-align: center; margin-bottom: 17px">
+                              <span class="chart" data-percent="86">
+                                                  <span class="percent"></span>
+                              </span>
+                            </div>
+
+                            <div class="pie_bg" style="text-align: center; display: none; margin-bottom: 17px">
+                              <canvas id="canvas_doughnut3" height="130"></canvas>
+                            </div>
+
+                            <div style="text-align: center;">
+                              <div class="btn-group" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-default btn-sm">1 D</button>
+                                <button type="button" class="btn btn-default btn-sm">1 W</button>
+                                <button type="button" class="btn btn-default btn-sm">1 M</button>
+                                <button type="button" class="btn btn-default btn-sm">1 Y</button>
+                              </div>
+                            </div>
+                            <div style="text-align: center; overflow: hidden; margin: 10px 5px 3px;">
+                              <canvas id="canvas_line3" height="190"></canvas>
+                            </div>
+                            <div>
+                              <ul class="list-inline widget_tally">
+                                <li>
+                                  <p>
+                                    <span class="month">12 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">29 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">16 January 2015 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 col-xs-12 widget widget_tally_box">
+                        <div class="x_panel">
+                          <div class="x_title">
+                            <h2>Tally Design4</h2>
+                            <ul class="nav navbar-right panel_toolbox">
+                              <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                              </li>
+                              <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Settings 1</a>
+                                  </li>
+                                  <li><a href="#">Settings 2</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li><a class="close-link"><i class="fa fa-close"></i></a>
+                              </li>
+                            </ul>
+                            <div class="clearfix"></div>
+                          </div>
+                          <div class="x_content">
+
+                            <div style="text-align: center; margin-bottom: 17px">
+                              <span class="chart" data-percent="86">
+                                                  <span class="percent"></span>
+                              </span>
+                            </div>
+
+                            <div class="pie_bg" style="text-align: center; display: none; margin-bottom: 17px">
+                              <canvas id="canvas_doughnut4" height="130"></canvas>
+                            </div>
+
+                            <div style="text-align: center;">
+                              <div class="btn-group" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-default btn-sm">1 D</button>
+                                <button type="button" class="btn btn-default btn-sm">1 W</button>
+                                <button type="button" class="btn btn-default btn-sm">1 M</button>
+                                <button type="button" class="btn btn-default btn-sm">1 Y</button>
+                              </div>
+                            </div>
+                            <div style="text-align: center; overflow: hidden; margin: 10px 5px 3px;">
+                              <canvas id="canvas_line4" height="190"></canvas>
+                            </div>
+                            <div>
+                              <ul class="list-inline widget_tally">
+                                <li>
+                                  <p>
+                                    <span class="month">12 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">29 December 2014 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                                <li>
+                                  <p>
+                                    <span class="month">16 January 2015 </span>
+                                    <span class="count">+12%</span>
+                                  </p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <!-- /.widget-user -->
         </div>
-        <!-- /.col -->
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
       </div>
-      <!-- /.row -->
+    </div>
 
-      <div class="row">
-        <div class="col-md-6">
-          <!-- Box Comment -->
-          <div class="box box-widget">
-            <div class="box-header with-border">
-              <div class="user-block">
-                <?php echo $this->Html->image('user1-128x128.jpg', ['alt' => 'User Avatar', 'class' => 'img-circle']); ?>
-                <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
-                <span class="description">Shared publicly - 7:30 PM Today</span>
-              </div>
-              <!-- /.user-block -->
-              <div class="box-tools">
-                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Mark as read">
-                  <i class="fa fa-circle-o"></i></button>
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <?php echo $this->Html->image('photo2.png', ['alt' => 'Photo', 'class' => 'img-responsive pad']); ?>
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>    
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- jQuery Sparklines -->
+    <script src="../vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+    <!-- easy-pie-chart -->
+    <script src="../vendors/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
 
-              <p>I took this photo this morning. What do you guys think?</p>
-              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
-              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
-              <span class="pull-right text-muted">127 likes - 3 comments</span>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer box-comments">
-              <div class="box-comment">
-                <!-- User image -->
-                <?php echo $this->Html->image('user3-128x128.jpg', ['alt' => 'User Image', 'class' => 'img-circle img-sm']); ?>
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
 
-                <div class="comment-text">
-                      <span class="username">
-                        Maria Gonzales
-                        <span class="text-muted pull-right">8:03 PM Today</span>
-                      </span><!-- /.username -->
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </div>
-                <!-- /.comment-text -->
-              </div>
-              <!-- /.box-comment -->
-              <div class="box-comment">
-                <!-- User image -->
-                <?php echo $this->Html->image('user4-128x128.jpg', ['alt' => 'User Image', 'class' => 'img-circle img-sm']); ?>
+    <!-- chart js -->
+    <!-- <script type="text/javascript" src="js/moment/moment.min.js"></script> -->
+    <!-- <script src="js/chartjs/chart.min.js"></script> -->
+    <!-- bootstrap progress js -->
+    <!-- <script src="js/progressbar/bootstrap-progressbar.min.js"></script> -->
+    <!-- icheck -->
+    <!-- <script src="js/icheck/icheck.min.js"></script> -->
 
-                <div class="comment-text">
-                      <span class="username">
-                        Luna Stark
-                        <span class="text-muted pull-right">8:03 PM Today</span>
-                      </span><!-- /.username -->
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </div>
-                <!-- /.comment-text -->
-              </div>
-              <!-- /.box-comment -->
-            </div>
-            <!-- /.box-footer -->
-            <div class="box-footer">
-              <form action="#" method="post">
-                <?php echo $this->Html->image('user4-128x128.jpg', ['alt' => 'Alt Text', 'class' => 'img-responsive img-circle img-sm']); ?>
-                <!-- .img-push is used to add margin to elements next to floating images -->
-                <div class="img-push">
-                  <input type="text" class="form-control input-sm" placeholder="Press enter to post comment">
-                </div>
-              </form>
-            </div>
-            <!-- /.box-footer -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-        <div class="col-md-6">
-          <!-- Box Comment -->
-          <div class="box box-widget">
-            <div class="box-header with-border">
-              <div class="user-block">
-                <?php echo $this->Html->image('user1-128x128.jpg', ['alt' => 'User Image', 'class' => 'img-circle']); ?>
-                <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
-                <span class="description">Shared publicly - 7:30 PM Today</span>
-              </div>
-              <!-- /.user-block -->
-              <div class="box-tools">
-                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Mark as read">
-                  <i class="fa fa-circle-o"></i></button>
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-              <!-- /.box-tools -->
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <!-- post text -->
-              <p>Far far away, behind the word mountains, far from the
-                countries Vokalia and Consonantia, there live the blind
-                texts. Separated they live in Bookmarksgrove right at</p>
+    <!-- <script src="../build/js/custom.min.js"></script> -->
 
-              <p>the coast of the Semantics, a large language ocean.
-                A small river named Duden flows by their place and supplies
-                it with the necessary regelialia. It is a paradisematic
-                country, in which roasted parts of sentences fly into
-                your mouth.</p>
+    <!-- pace -->
+    <!-- <script src="js/pace/pace.min.js"></script> -->
 
-              <!-- Attachment -->
-              <div class="attachment-block clearfix">
-                <?php echo $this->Html->image('photo1.png', ['alt' => 'Attachment Image', 'class' => 'attachment-img']); ?>
+    <!-- sparkline -->
+    <!-- <script src="js/sparkline/jquery.sparkline.min.js"></script> -->
+    <!-- easypie -->
+    <!-- <script src="js/easypie/jquery.easypiechart.min.js"></script> -->
+    <script>
+      $(function() {
+        $('.chart').easyPieChart({
+          easing: 'easeOutElastic',
+          delay: 3000,
+          barColor: '#26B99A',
+          trackColor: '#fff',
+          scaleColor: false,
+          lineWidth: 20,
+          trackWidth: 16,
+          lineCap: 'butt',
+          onStep: function(from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+          }
+        });
+      });
+    </script>
 
-                <div class="attachment-pushed">
-                  <h4 class="attachment-heading"><a href="http://www.lipsum.com/">Lorem ipsum text generator</a></h4>
+    <script>
+      $(document).ready(function() {
+        Chart.defaults.global.legend = {
+          enabled: false
+        };
 
-                  <div class="attachment-text">
-                    Description about the attachment can be placed here.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry... <a href="#">more</a>
-                  </div>
-                  <!-- /.attachment-text -->
-                </div>
-                <!-- /.attachment-pushed -->
-              </div>
-              <!-- /.attachment-block -->
+        new Chart(document.getElementById("canvas_line"), {
+          type: 'line',
+          data: {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [{
+              label: "My First dataset",
+              backgroundColor: "rgba(38, 185, 154, 0.31)",
+              borderColor: "rgba(38, 185, 154, 0.7)",
+              pointBorderColor: "rgba(38, 185, 154, 0.7)",
+              pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(220,220,220,1)",
+              pointBorderWidth: 1,
+              data: [31, 74, 6, 39, 20, 85, 7]
+            }, {
+              label: "My Second dataset",
+              backgroundColor: "rgba(3, 88, 106, 0.3)",
+              borderColor: "rgba(3, 88, 106, 0.70)",
+              pointBorderColor: "rgba(3, 88, 106, 0.70)",
+              pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(151,187,205,1)",
+              pointBorderWidth: 1,
+              data: [82, 23, 66, 9, 99, 4, 2]
+            }]
+          },
+        });
 
-              <!-- Social sharing buttons -->
-              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
-              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
-              <span class="pull-right text-muted">45 likes - 2 comments</span>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer box-comments">
-              <div class="box-comment">
-                <!-- User image -->
-                <?php echo $this->Html->image('user3-128x128.jpg', ['alt' => 'User Image', 'class' => 'img-circle img-sm']); ?>
+        new Chart(document.getElementById("canvas_line1"), {
+          type: 'line',
+          data: {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [{
+              label: "My First dataset",
+              backgroundColor: "rgba(38, 185, 154, 0.31)",
+              borderColor: "rgba(38, 185, 154, 0.7)",
+              pointBorderColor: "rgba(38, 185, 154, 0.7)",
+              pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(220,220,220,1)",
+              pointBorderWidth: 1,
+              data: [31, 74, 6, 39, 20, 85, 7]
+            }, {
+              label: "My Second dataset",
+              backgroundColor: "rgba(3, 88, 106, 0.3)",
+              borderColor: "rgba(3, 88, 106, 0.70)",
+              pointBorderColor: "rgba(3, 88, 106, 0.70)",
+              pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(151,187,205,1)",
+              pointBorderWidth: 1,
+              data: [82, 23, 66, 9, 99, 4, 2]
+            }]
+          },
+        });
 
-                <div class="comment-text">
-                      <span class="username">
-                        Maria Gonzales
-                        <span class="text-muted pull-right">8:03 PM Today</span>
-                      </span><!-- /.username -->
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                </div>
-                <!-- /.comment-text -->
-              </div>
-              <!-- /.box-comment -->
-              <div class="box-comment">
-                <!-- User image -->
-                <?php echo $this->Html->image('user5-128x128.jpg', ['alt' => 'User Image', 'class' => 'img-circle img-sm']); ?>
+        new Chart(document.getElementById("canvas_line2"), {
+          type: 'line',
+          data: {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [{
+              label: "My First dataset",
+              backgroundColor: "rgba(38, 185, 154, 0.31)",
+              borderColor: "rgba(38, 185, 154, 0.7)",
+              pointBorderColor: "rgba(38, 185, 154, 0.7)",
+              pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(220,220,220,1)",
+              pointBorderWidth: 1,
+              data: [31, 74, 6, 39, 20, 85, 7]
+            }, {
+              label: "My Second dataset",
+              backgroundColor: "rgba(3, 88, 106, 0.3)",
+              borderColor: "rgba(3, 88, 106, 0.70)",
+              pointBorderColor: "rgba(3, 88, 106, 0.70)",
+              pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(151,187,205,1)",
+              pointBorderWidth: 1,
+              data: [82, 23, 66, 9, 99, 4, 2]
+            }]
+          },
+        });
 
-                <div class="comment-text">
-                      <span class="username">
-                        Nora Havisham
-                        <span class="text-muted pull-right">8:03 PM Today</span>
-                      </span><!-- /.username -->
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using
-                  'Content here, content here', making it look like readable English.
-                </div>
-                <!-- /.comment-text -->
-              </div>
-              <!-- /.box-comment -->
-            </div>
-            <!-- /.box-footer -->
-            <div class="box-footer">
-              <form action="#" method="post">
-                <?php echo $this->Html->image('user4-128x128.jpg', ['alt' => 'Alt Text', 'class' => 'img-responsive img-circle img-sm']); ?>
-                <!-- .img-push is used to add margin to elements next to floating images -->
-                <div class="img-push">
-                  <input type="text" class="form-control input-sm" placeholder="Press enter to post comment">
-                </div>
-              </form>
-            </div>
-            <!-- /.box-footer -->
-          </div>
-          <!-- /.box -->
-        </div>
-        <!-- /.col -->
-      </div>
-      <!-- /.row -->
+        new Chart(document.getElementById("canvas_line3"), {
+          type: 'line',
+          data: {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [{
+              label: "My First dataset",
+              backgroundColor: "rgba(38, 185, 154, 0.31)",
+              borderColor: "rgba(38, 185, 154, 0.7)",
+              pointBorderColor: "rgba(38, 185, 154, 0.7)",
+              pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(220,220,220,1)",
+              pointBorderWidth: 1,
+              data: [31, 74, 6, 39, 20, 85, 7]
+            }, {
+              label: "My Second dataset",
+              backgroundColor: "rgba(3, 88, 106, 0.3)",
+              borderColor: "rgba(3, 88, 106, 0.70)",
+              pointBorderColor: "rgba(3, 88, 106, 0.70)",
+              pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(151,187,205,1)",
+              pointBorderWidth: 1,
+              data: [82, 23, 66, 9, 99, 4, 2]
+            }]
+          },
+        });
 
-    </section>
-    <!-- /.content -->
+        new Chart(document.getElementById("canvas_line4"), {
+          type: 'line',
+          data: {
+            labels: ["January", "February", "March", "April", "May", "June", "July"],
+            datasets: [{
+              label: "My First dataset",
+              backgroundColor: "rgba(38, 185, 154, 0.31)",
+              borderColor: "rgba(38, 185, 154, 0.7)",
+              pointBorderColor: "rgba(38, 185, 154, 0.7)",
+              pointBackgroundColor: "rgba(38, 185, 154, 0.7)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(220,220,220,1)",
+              pointBorderWidth: 1,
+              data: [31, 74, 6, 39, 20, 85, 7]
+            }, {
+              label: "My Second dataset",
+              backgroundColor: "rgba(3, 88, 106, 0.3)",
+              borderColor: "rgba(3, 88, 106, 0.70)",
+              pointBorderColor: "rgba(3, 88, 106, 0.70)",
+              pointBackgroundColor: "rgba(3, 88, 106, 0.70)",
+              pointHoverBackgroundColor: "#fff",
+              pointHoverBorderColor: "rgba(151,187,205,1)",
+              pointBorderWidth: 1,
+              data: [82, 23, 66, 9, 99, 4, 2]
+            }]
+          },
+        });
+      });
+    </script>
+    
+    <script>
+      $('document').ready(function() {
+        $(".sparkline_one").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 7, 5, 4, 3, 5, 6], {
+          type: 'bar',
+          height: '40',
+          barWidth: 9,
+          colorMap: {
+            '7': '#a1a1a1'
+          },
+          barSpacing: 2,
+          barColor: '#26B99A'
+        });
+
+        $(".sparkline_two").sparkline([2, 4, 3, 4, 5, 4, 5, 4, 3, 4, 5, 6, 7, 5, 4, 3, 5, 6], {
+          type: 'line',
+          width: '200',
+          height: '40',
+          lineColor: '#26B99A',
+          fillColor: 'rgba(223, 223, 223, 0.57)',
+          lineWidth: 2,
+          spotColor: '#26B99A',
+          minSpotColor: '#26B99A'
+        });
+      })
+    </script>
+  </body>
+</html>

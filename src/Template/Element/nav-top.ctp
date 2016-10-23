@@ -18,7 +18,7 @@ if (file_exists($file)) {
                 <ul class="nav navbar-nav navbar-right">
                     <li class="">
                         <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                            <?php echo $this->Html->image('Hostmoz./images/img.jpg')?>John Doe
+                            <?php echo $this->Html->image('Gentelella./images/img.jpg')?>John Doe
                             <span class=" fa fa-angle-down"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -42,7 +42,7 @@ if (file_exists($file)) {
                         <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                             <li>
                                 <a>
-                                    <span class="image"><?php echo $this->Html->image('Hostmoz./images/img.jpg')?></span>
+                                    <span class="image"><?php echo $this->Html->image('Gentelella./images/img.jpg')?></span>
                                     <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -54,7 +54,7 @@ if (file_exists($file)) {
                             </li>
                             <li>
                                 <a>
-                                    <span class="image"><?php echo $this->Html->image('Hostmoz./images/img.jpg')?></span>
+                                    <span class="image"><?php echo $this->Html->image('Gentelella./images/img.jpg')?></span>
                                     <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>
@@ -66,7 +66,7 @@ if (file_exists($file)) {
                             </li>
                             <li>
                                 <a>
-                                    <span class="image"><?php echo $this->Html->image('Hostmoz./images/img.jpg')?></span>
+                                    <span class="image"><?php echo $this->Html->image('Gentelella./images/img.jpg')?></span>
                                     <span>
                           <span>John Smith</span>
                           <span class="time">3 mins ago</span>

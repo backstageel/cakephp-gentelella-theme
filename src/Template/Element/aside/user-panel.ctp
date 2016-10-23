@@ -10,7 +10,7 @@ if (file_exists($file)) {
     <!-- menu profile quick info -->
     <div class="profile">
         <div class="profile_pic">
-            <?php echo $this->Html->image('Hostmoz./images/img.jpg',['class'=>'img-circle profile_img'])?>
+            <?php echo $this->Html->image('Gentelella./images/img.jpg',['class'=>'img-circle profile_img'])?>
         </div>
         <div class="profile_info">
             <span>Welcome,</span>

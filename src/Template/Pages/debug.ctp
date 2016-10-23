@@ -28,18 +28,17 @@ endif;
 ?>
 
 <!-- Content Header (Page header) -->
-<section class="content-header">
+
   <h1>
     Get the Ovens Ready
   </h1>
-</section>
+
 
 <!-- Main content -->
-<section class="content">
 
     <div class="row">
         <div class="col-md-12">
-            <div class="callout callout-info">
+            <div class="alert alert-info">
                 Please be aware that this page will not be shown if you turn off debug mode unless you replace src/Template/Pages/home.ctp with your own version.
             </div>
         </div>
@@ -47,7 +46,7 @@ endif;
 
     <div class="row">
         <div class="col-md-12">
-            <div class="callout callout-info">
+            <div class="alert alert-info">
                 <?php Debugger::checkSecurityKeys(); ?>
                 <p class="problem">URL rewriting is not properly configured on your server.</p>
                 <p>
@@ -63,13 +62,13 @@ endif;
     <div class="row">
         <div class="col-md-12">
             <?php
-            $class = 'callout-warning';
+            $class = 'alert-warning';
 
             if (version_compare(PHP_VERSION, '5.5.9', '>=') && extension_loaded('mbstring') && extension_loaded('openssl') && extension_loaded('mcrypt') && extension_loaded('intl')) {
-                $class = 'callout-success';
+                $class = 'alert-success';
             }
             ?>
-            <div class="callout <?= $class ?>">
+            <div class="alert <?= $class ?>">
                 <h4>Environment</h4>
                     <?php if (version_compare(PHP_VERSION, '5.5.9', '>=')): ?>
                         <p class="success">Your version of PHP is 5.5.9 or higher (detected <?= phpversion() ?>).</p>
@@ -104,13 +103,13 @@ endif;
         <div class="col-md-12">
             <?php
             $settings = Cache::config('_cake_core_');
-            $class = 'callout-warning';
+            $class = 'alert-warning';
 
             if (is_writable(TMP) && is_writable(LOGS) && !empty($settings)) {
-                $class = 'callout-success';
+                $class = 'alert-success';
             }
             ?>
-            <div class="callout <?= $class ?>">
+            <div class="alert <?= $class ?>">
                 <h4>Filesystem</h4>
                 <?php if (is_writable(TMP)): ?>
                     <p class="success">Your tmp directory is writable.</p>
@@ -151,12 +150,12 @@ endif;
                 }
             ?>
                 <?php if ($connected): ?>
-                    <div class="callout callout-info">
+                    <div class="alert alert-info">
                         <h4>Database</h4>
                         <p class="success">CakePHP is able to connect to the database.</p>
                     </div>
                 <?php else: ?>
-                    <div class="callout callout-danger">
+                    <div class="alert alert-danger">
                         <h4>Database</h4>
                         <p class="problem">CakePHP is NOT able to connect to the database.<br /><br /><?= $errorMsg ?></p>
                     </div>
@@ -167,12 +166,12 @@ endif;
     <div class="row">
         <div class="col-md-12">
             <?php if (Plugin::loaded('DebugKit')): ?>
-                <div class="callout callout-success">
+                <div class="alert alert-success">
                     <h4>DebugKit</h4>
                         <p class="success">DebugKit is loaded.</p>
                 </div>
                 <?php else: ?>
-                <div class="callout callout-danger">
+                <div class="alert alert-danger">
                     <h4>DebugKit</h4>
                     <p class="problem">DebugKit is NOT loaded. You need to either install pdo_sqlite, or define the "debug_kit" connection name.</p>
                 </div>
@@ -182,7 +181,7 @@ endif;
 
     <div class="row">
         <div class="col-md-6">
-            <div class="callout callout-info">
+            <div class="alert alert-info">
                 <h3>Editing this Page</h3>
                 <ul>
                     <li>To change the content of this page, edit: src/Template/Pages/home.ctp.</li>
@@ -191,7 +190,7 @@ endif;
             </div>
         </div>
         <div class="col-md-6">
-            <div class="callout callout-info">
+            <div class="alert alert-info">
                 <h3>Getting Started</h3>
                 <ul>
                     <li><a target="_blank" href="http://book.cakephp.org/3.0/en/">CakePHP 3.0 Docs</a></li>
@@ -204,7 +203,7 @@ endif;
 
     <div class="row">
         <div class="col-md-12">
-            <div class="callout callout-info">
+            <div class="alert alert-info">
                 <h3 class="">More about Cake</h3>
                 <p>
                     CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Front Controller and MVC.
@@ -280,7 +279,6 @@ endif;
         </div>
     </div>
 
-</section>
 <!-- /.content -->
 <?php $this->start('css'); ?>
   <style>
