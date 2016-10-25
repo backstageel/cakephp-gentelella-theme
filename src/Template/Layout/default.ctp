@@ -81,7 +81,7 @@
 <?php echo $this->Html->script('Gentelella./build/js/custom.min'); ?>
 
 <?php echo $this->fetch('script'); ?>
-<?php echo $this->fetch('scriptBotton'); ?>
+<?php echo $this->fetch('scriptBottom'); ?>
 <!-- Flot -->
 <script>
     $(document).ready(function() {
