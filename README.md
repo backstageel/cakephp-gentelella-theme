@@ -30,16 +30,13 @@ public function beforeRender(Event $event)
 }
 ```
 
-### Enable Form
+### Using Bootstrap UI Plugin
 
-```php
-// src/View/AppView.php
+This Theme Uses the BootstrapUI Plugin for CakePHP to create Bootstrap Forms. The Plugin will be installed automatically if you use composer.
 
-public function initialize()
-{
-    $this->loadHelper('Form', ['className' => 'Gentelella.Form']);
-}
-```
+Follow BootstrapUI settings to configure other aspects of the Plugin.
+
+https://github.com/FriendsOfCake/bootstrap-ui
 
 ### Configure
 
