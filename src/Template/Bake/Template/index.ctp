@@ -16,13 +16,8 @@ $fields = collection($fields)
     </div>
 
     <div class="title_right">
-        <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Search for...">
-                <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">Go!</button>
-                    </span>
-            </div>
+        <div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
+            <?= $this->Html->link(__('<i class="fa fa-plus"></i>New'), ['action' => 'add'], ['class'=>'btn btn-success pull-right','escape'=>false]) ?>
         </div>
     </div>
 </div>

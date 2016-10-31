@@ -10,12 +10,10 @@ use Cake\Utility\Inflector;
     </div>
 
     <div class="title_right">
-        <ol class="breadcrumb">
-            <li>
-                <?= $this->Html->link('<i class="fa fa-dashboard"></i> ' . __('Back'), ['action' => 'index'], ['escape' => false]) ?>
-            </li>
-        </ol>
+        <div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
+            <?= $this->Html->link(__('<i class="fa fa-dashboard"></i> Back'), ['action' => 'index'], ['class' => 'btn btn-success pull-right','escape'=>false]) ?>
         </div>
+    </div>
     </div>
 
 <!-- Main content -->
