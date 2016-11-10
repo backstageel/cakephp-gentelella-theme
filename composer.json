@@ -19,7 +19,7 @@
     "friendsofcake/bootstrap-ui":"@stable"
   },
   "require-dev": {
-    "phpunit/phpunit": "~4.1"
+    "phpunit/phpunit": "*"
   },
   "autoload": {
     "psr-4": {
