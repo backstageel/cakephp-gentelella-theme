@@ -28,7 +28,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body class="nav-md">
+<body class="nav-md  footer_fixed">
 <div class="container body">
     <div class="main_container">
         <!-- Left side column. contains the sidebar -->
