@@ -24,7 +24,6 @@ use Cake\Network\Exception\NotFoundException;
 if (!Configure::read('debug')):
     throw new NotFoundException('Please replace src/Template/Pages/home.ctp with your own version.');
 endif;
-
 ?>
 
 <!-- Content Header (Page header) -->
