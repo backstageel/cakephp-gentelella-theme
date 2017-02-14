@@ -1,3 +1,18 @@
+<?php
+$file = '';
+if($this->plugin){
+    $file = ROOT . DS . 'plugins'.DS.$this->plugin.DS.'src' . DS . 'Template' . DS . 'Users' . DS . 'login.ctp';
+}
+if(!file_exists($file)){
+    $file = ROOT . DS . 'src' . DS . 'Template' . DS . 'Users' . DS . 'login.ctp';
+}
+
+if (file_exists($file)) {
+    ob_start();
+    include_once $file;
+    echo ob_get_clean();
+} else {
+?>
 <div>
     <div class="login_wrapper">
         <div class="animate form login_form">
@@ -31,3 +46,4 @@
         </div>
     </div>
 </div>
+<?php } ?>
