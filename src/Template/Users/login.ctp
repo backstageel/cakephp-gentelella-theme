@@ -18,7 +18,7 @@ if (file_exists($file)) {
         <div class="animate form login_form">
             <section class="login_content">
                 <?= $this->Form->create() ?>
-                    <h1>TDM</h1>
+                    <h1><?php echo isset($theme['title']) ? $theme['title'] : 'Gentelella'; ?></h1>
                     <div>
                         <?= $this->Form->input('username',['class'=>'form-control','placeholder'=>'Email','label'=>false,'required'=>true]) ?>
                     </div>
@@ -26,7 +26,7 @@ if (file_exists($file)) {
                         <?= $this->Form->input('password',['class'=>'form-control','placeholder'=>'Senha de Acesso','label'=>false,'required'=>true]) ?>
                     </div>
                     <div>
-                        <?= $this->Form->button(__('Entrar'),['class'=>'btn btn-primary btn-block btn-flat']); ?>
+                        <?= $this->Form->button(__d('gentelella','Login'),['class'=>'btn btn-primary btn-block btn-flat']); ?>
 
                     </div>
 

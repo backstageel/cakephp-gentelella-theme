@@ -11,13 +11,13 @@ $fields = collection($fields)
     <div class="title_left">
         <h3>
             <%= $singularHumanName %>
-            <small><?= __('<%= Inflector::humanize($action) %>') ?></small>
+            <small><?= __d('gentelella','<%= Inflector::humanize($action) %>') ?></small>
         </h3>
     </div>
 
     <div class="title_right">
         <div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
-            <?= $this->Html->link(__('<i class="fa fa-plus"></i>New'), ['action' => 'add'], ['class'=>'btn btn-success pull-right','escape'=>false]) ?>
+            <?= $this->Html->link('<i class="fa fa-plus"></i>'.__d('gentelella','New'), ['action' => 'add'], ['class'=>'btn btn-success pull-right','escape'=>false]) ?>
         </div>
     </div>
 </div>
@@ -27,7 +27,7 @@ $fields = collection($fields)
     <div class="col-xs-12">
       <div class="x_panel">
           <div class="x_title">
-              <h2><%= $singularHumanName %> <small><?= __('<%= Inflector::humanize($action) %>') ?></small></h2>
+              <h2><%= $singularHumanName %> <small><?= __d('gentelella','<%= Inflector::humanize($action) %>') ?></small></h2>
               <ul class="nav navbar-right panel_toolbox">
                   <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                   </li>
@@ -49,9 +49,9 @@ $fields = collection($fields)
         <div class="x_content">
             <form action="<?php echo $this->Url->build(); ?>" method="POST">
                 <div class="input-group input-group-sm">
-                    <input type="text" name="search" class="form-control" placeholder="<?= __('Fill in to start search') ?>">
+                    <input type="text" name="search" class="form-control" placeholder="<?= __d('gentelella','Fill in to start search') ?>">
                     <span class="input-group-btn">
-                <button class="btn btn-info btn-flat" type="submit"><?= __('Filter') ?></button>
+                <button class="btn btn-info btn-flat" type="submit"><?= __d('gentelella','Filter') ?></button>
                 </span>
                 </div>
             </form>
@@ -60,7 +60,7 @@ $fields = collection($fields)
 <%  foreach ($fields as $field): %>
               <th><?= $this->Paginator->sort('<%= $field %>') ?></th>
 <%  endforeach; %>
-              <th><?= __('Actions') ?></th>
+              <th><?= __d('gentelella','Actions') ?></th>
             </tr>
             <?php foreach ($<%= $pluralVar %> as $<%= $singularVar %>): ?>
               <tr>
@@ -93,8 +93,8 @@ $fields = collection($fields)
   $pk = '$' . $singularVar . '->' . $primaryKey[0];
 %>
                 <td class="actions" style="white-space:nowrap">
-                  <?= $this->Html->link(__('Edit'), ['action' => 'edit', <%= $pk %>], ['class'=>'btn btn-primary btn-xs']) ?>
-                  <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', <%= $pk %>], ['confirm' => __('Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-xs']) ?>
+                  <?= $this->Html->link(__d('gentelella','Edit'), ['action' => 'edit', <%= $pk %>], ['class'=>'btn btn-primary btn-xs']) ?>
+                  <?= $this->Form->postLink(__d('gentelella','Delete'), ['action' => 'delete', <%= $pk %>], ['confirm' => __d('gentelella','Confirm to delete this entry?'), 'class'=>'btn btn-danger btn-xs']) ?>
                 </td>
               </tr>
             <?php endforeach; ?>

@@ -16,7 +16,7 @@ if (file_exists($file)) {
     <!-- footer content -->
     <footer>
         <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            &copy; <?= date('Y')?> <?php echo isset($theme['title']) ? $theme['title'] : 'Gentelella'; ?> - <?= __d('gentelella','Powered By BackstageEL')?> <a href="https://hostmoz.net">Hostmoz</a>
         </div>
         <div class="clearfix"></div>
     </footer>

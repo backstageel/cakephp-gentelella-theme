@@ -32,15 +32,15 @@ if (file_exists($file)) {
                             <span class=" fa fa-angle-down"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-usermenu pull-right">
-                            <li><a href="<?= $this->Url->build(['controller'=>'users','action'=>'profile'])?>"> <?php __('Profile')?></a></li>
+                            <li><a href="<?= $this->Url->build(['controller'=>'users','action'=>'profile'])?>"> <?php __d('gentelella','Profile')?></a></li>
                             <li>
                                 <a href="<?= $this->Url->build(['controller'=>'users','action'=>'settins'])?>">
                                     <span class="badge bg-red pull-right">50%</span>
-                                    <span><?= __('Settings')?></span>
+                                    <span><?= __d('gentelella','Settings')?></span>
                                 </a>
                             </li>
-                            <li><a href="<?= $this->Url->build(['controller'=>'faqs','action'=>'index'])?>"><?= __('Help')?></a></li>
-                            <li><a href="<?= $this->Url->build(['controller'=>'users','action'=>'logout'])?>"><i class="fa fa-sign-out pull-right"></i> <?= __('Log Out')?></a></li>
+                            <li><a href="<?= $this->Url->build(['controller'=>'faqs','action'=>'index'])?>"><?= __d('gentelella','Help')?></a></li>
+                            <li><a href="<?= $this->Url->build(['controller'=>'users','action'=>'logout'])?>"><i class="fa fa-sign-out pull-right"></i> <?= __d('gentelella','Log Out')?></a></li>
                         </ul>
                     </li>
 

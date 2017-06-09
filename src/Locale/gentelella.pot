@@ -1,0 +1,98 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-06-09 05:13+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Template/Bake/Element/form.ctp:8;24
+#: Template/Bake/Template/index.ctp:14;30
+#: Template/Bake/Template/view.ctp:8;27
+msgid "<%= Inflector::humanize($action) %>"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:14
+#: Template/Bake/Template/view.ctp:14
+msgid " Back"
+msgstr ""
+
+#: Template/Bake/Element/form.ctp:92
+#: Template/Bake/Template/view.ctp:96
+msgid "Save"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:20
+msgid "New"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:52
+msgid "Fill in to start search"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:54
+msgid "Filter"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:63
+msgid "Actions"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:96
+msgid "Edit"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:97
+msgid "Delete"
+msgstr ""
+
+#: Template/Bake/Template/index.ctp:97
+msgid "Confirm to delete this entry?"
+msgstr ""
+
+#: Template/Element/footer.ctp:19
+msgid "Powered By BackstageEL"
+msgstr ""
+
+#: Template/Element/nav-top.ctp:35
+msgid "Profile"
+msgstr ""
+
+#: Template/Element/nav-top.ctp:39
+msgid "Settings"
+msgstr ""
+
+#: Template/Element/nav-top.ctp:42
+msgid "Help"
+msgstr ""
+
+#: Template/Element/nav-top.ctp:43
+msgid "Log Out"
+msgstr ""
+
+#: Template/Element/Flash/default.ctp:4
+#: Template/Element/Flash/error.ctp:4
+#: Template/Element/Flash/success.ctp:4
+msgid "Alert"
+msgstr ""
+
+#: Template/Element/aside/form.ctp:18
+msgid "Search"
+msgstr ""
+
+#: Template/Element/aside/user-panel.ctp:22
+msgid "Welcome"
+msgstr ""
+
+#: Template/Users/login.ctp:29
+msgid "Login"
+msgstr ""
+

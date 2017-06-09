@@ -1,0 +1,94 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-06-09 07:08+0200\n"
+"PO-Revision-Date: 2017-06-09 07:09+0200\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.2\n"
+
+#: Template/Bake/Element/form.ctp:8;24 Template/Bake/Template/index.ctp:14;30
+#: Template/Bake/Template/view.ctp:8;27
+msgid "<%= Inflector::humanize($action) %>"
+msgstr "<%= Inflector::humanize($action) %>"
+
+#: Template/Bake/Element/form.ctp:14 Template/Bake/Template/view.ctp:14
+msgid " Back"
+msgstr " Voltar"
+
+#: Template/Bake/Element/form.ctp:92 Template/Bake/Template/view.ctp:96
+msgid "Save"
+msgstr "Gravar"
+
+#: Template/Bake/Template/index.ctp:20
+msgid "New"
+msgstr "Novo"
+
+#: Template/Bake/Template/index.ctp:52
+msgid "Fill in to start search"
+msgstr "Insira os termos para pesquisar"
+
+#: Template/Bake/Template/index.ctp:54
+msgid "Filter"
+msgstr "Filtrar"
+
+#: Template/Bake/Template/index.ctp:63
+msgid "Actions"
+msgstr "Acções"
+
+#: Template/Bake/Template/index.ctp:96
+msgid "Edit"
+msgstr "Editar"
+
+#: Template/Bake/Template/index.ctp:97
+msgid "Delete"
+msgstr "Remover"
+
+#: Template/Bake/Template/index.ctp:97
+msgid "Confirm to delete this entry?"
+msgstr "Deseja remover este item?"
+
+#: Template/Element/footer.ctp:19
+msgid "Powered By BackstageEL"
+msgstr "Desenvolvido Por Hostmoz,Lda"
+
+#: Template/Element/nav-top.ctp:35
+msgid "Profile"
+msgstr "Perfil"
+
+#: Template/Element/nav-top.ctp:39
+msgid "Settings"
+msgstr "Definições"
+
+#: Template/Element/nav-top.ctp:42
+msgid "Help"
+msgstr "Ajuda"
+
+#: Template/Element/nav-top.ctp:43
+msgid "Log Out"
+msgstr "Sair"
+
+#: Template/Element/Flash/default.ctp:4 Template/Element/Flash/error.ctp:4
+#: Template/Element/Flash/success.ctp:4
+msgid "Alert"
+msgstr "Alerta"
+
+#: Template/Element/aside/form.ctp:18
+msgid "Search"
+msgstr "Pesquisar"
+
+#: Template/Element/aside/user-panel.ctp:22
+msgid "Welcome"
+msgstr "Bem Vindo"
+
+#: Template/Users/login.ctp:29
+msgid "Login"
+msgstr "Entrar"

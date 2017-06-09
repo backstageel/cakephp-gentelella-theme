@@ -5,13 +5,13 @@ use Cake\Utility\Inflector;
     <div class="title_left">
         <h3>
             <%= $singularHumanName %>
-            <small><?= __('<%= Inflector::humanize($action) %>') ?></small>
+            <small><?= __d('gentelella','<%= Inflector::humanize($action) %>') ?></small>
         </h3>
     </div>
 
     <div class="title_right">
         <div class="col-md-12 col-sm-12 col-xs-12 form-group pull-right top_search">
-            <?= $this->Html->link(__('<i class="fa fa-dashboard"></i> Back'), ['action' => 'index'], ['class' => 'btn btn-success pull-right','escape'=>false]) ?>
+            <?= $this->Html->link('<i class="fa fa-dashboard"></i>'.__d('gentelella',' Back'), ['action' => 'index'], ['class' => 'btn btn-success pull-right','escape'=>false]) ?>
         </div>
     </div>
     </div>
@@ -24,7 +24,7 @@ use Cake\Utility\Inflector;
             <div class="x_panel">
                 <div class="x_title">
                     <h2><%= $singularHumanName %>
-                        <small><?= __('<%= Inflector::humanize($action) %>') ?></small>
+                        <small><?= __d('gentelella','<%= Inflector::humanize($action) %>') ?></small>
                     </h2>
                     <ul class="nav navbar-right panel_toolbox">
                         <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
@@ -93,7 +93,7 @@ use Cake\Utility\Inflector;
                     </div>
                 <!-- /.box-body -->
                     <div class="box-footer">
-                        <?= $this->Form->button(__('Save')) ?>
+                        <?= $this->Form->button(__d('gentelella','Save')) ?>
                     </div>
                     <?= $this->Form->end() ?>
                 </div>
