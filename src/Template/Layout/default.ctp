@@ -18,6 +18,7 @@
     <?php echo $this->Html->css('Gentelella./vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min'); ?>
     <?php echo $this->Html->css('Gentelella./css/maps/jquery-jvectormap-2.0.3'); ?>
     <?php echo $this->Html->css('Gentelella./build/css/custom.min'); ?>
+    <?php echo $this->Html->css('/css/custom'); ?>
 
     <?php echo $this->fetch('css'); ?>
 
