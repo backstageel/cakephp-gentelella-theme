@@ -21,7 +21,13 @@ if (file_exists($file)) {
         <div class="profile_info">
             <span><?= __d('gentelella', 'Welcome') ?>,</span>
             <h2><?php
-                echo $this->request->session()->read('Auth.User.name') ?? $this->request->session()->read('Auth.User.username') ?? 'John Doe';
+                  if (!is_null($this->request->session()->read('Auth.User.name'))) {
+                                       echo $this->request->session()->read('Auth.User.name');
+                    } else if (!is_null($this->request->session()->read('Auth.User.username'))) {
+                        echo $this->request->session()->read('Auth.User.username');
+                    } else {
+                        echo "John Doe";
+                    }
 
                 ?></h2>
         </div>
