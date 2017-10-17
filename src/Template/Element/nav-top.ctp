@@ -25,10 +25,15 @@ if (file_exists($file)) {
                     <li class="">
                         <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                             <?php echo $this->Html->image('Gentelella./images/img.jpg')?>
-                            <?php
-                                echo $this->request->session()->read('Auth.User.name') ?? $this->request->session()->read('Auth.User.username') ?? 'John Doe';
-
-                                ?>
+                            <?php 
+                                if (!is_null($this->request->session()->read('Auth.User.name'))) {
+                                   echo $this->request->session()->read('Auth.User.name');
+                                } else if (!is_null($this->request->session()->read('Auth.User.username'))) {
+                                    echo $this->request->session()->read('Auth.User.username');
+                                } else {
+                                    echo "John Doe";
+                                }
+                            ?>
                             <span class=" fa fa-angle-down"></span>
                         </a>
                         <ul class="dropdown-menu dropdown-usermenu pull-right">
